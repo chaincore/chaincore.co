@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/jjx7czz.css");
+
+html {
+    padding-left: 12%;
+    padding-right: 12%;
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    font-family: 'sofia-pro';
+    font-weight: 600;
+    line-height: 2.8em;
+}
+
+h1 {
+    text-align: center;
+    top: 200px;
+    font-size: 3em;
+    
+}
+
+p {
+    font-size: 2em;
+}
+
+.column {
+    float: left;
+    width: 33.333%;
+    font-size: 1.5em;
+}
+
+p3 {
+    font-size: 1.3em;
+}
+
+.link {
+    color: var(--font-color);
+}
+
+.link:hover {
+    color: var(--link-color);
+}
+
+a {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.bluelink {
+    color: var(--link-color);
+}
+
+.bluelink:hover {
+    color: var(--gray-color);
+}
+
+:root {
+
+    --font-color: #0a0a0a;
+    --bg-color: #fefefe;
+    --link-color: #0096fe;
+    --gray-color: #909090;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --font-color: #fefefe;
+        --bg-color: #141414;
+        --link-color: #0096fe;
+        --gray-color: #707070;
+    }
+}
