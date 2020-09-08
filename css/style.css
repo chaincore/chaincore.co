@@ -77,22 +77,22 @@ a {
   and (-webkit-min-device-pixel-ratio: 2) {
 
     html {
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 1.9em;
-        padding-bottom: 80px;
+        padding-left: 3%;
+        padding-right: 3%;
+        line-height: 1.8em;
+        padding-bottom: 50px;
     }
     
     h1 {
-        top: 100px;
+        top: 10px;
         font-size: 2em; 
     }
     
     p {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     
     .column, p3 {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
