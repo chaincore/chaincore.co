@@ -1,12 +1,15 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/jjx7czz.css");
+@font-face {
+  font-family: 'TTHoves-Medium';
+  src: url('../fonts/TTHoves-Medium.ttf');
 
 html {
     padding-left: 12%;
     padding-right: 12%;
     color: var(--font-color);
     background-color: var(--bg-color);
-    font-family: '../fonts/TTHoves-Medium.ttf';
+    font-family: 'TTHoves-Medium';
     font-weight: 600;
     line-height: 2.8em;
     padding-bottom: 30px;
