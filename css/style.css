@@ -6,7 +6,7 @@ html {
     padding-right: 12%;
     color: var(--font-color);
     background-color: var(--bg-color);
-    font-family: './fonts/TTHoves-Medium.ttf';
+    font-family: '../fonts/TTHoves-Medium.ttf';
     font-weight: 600;
     line-height: 2.8em;
     padding-bottom: 30px;
